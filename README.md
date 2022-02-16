@@ -1,4 +1,4 @@
-# Robust-Asset-Allocation
+## Robust-Asset-Allocation
 
 This is a python implementation of the robust bayesian portfolio method introduced by Evan W. Anderson and Ai-Ru Meg Cheng in 2012. 
 The orginial paper can be found here: https://www.jstor.org/stable/43866052
@@ -15,5 +15,8 @@ I compare this model to a simple Markovitz portfolio strategy and an equal-weigh
 While no clear winner emerged it is interesting to note that the Bayesian model might be a good method in more volatile times such as recessions.
 Potential extensions would be the inclusion of GARCH specifications to model time varying volat- ility in the variance-covariance estimations, a combination of Anderson and Cheng’s and Richard Michaud and Robert Michaud’s approach, wherby the ‘Robust Bayesian Portfolio Choices’ technique is enforced by repeatedly bootstrapping past observations.
 
+Below is the math for this model. 
 
 ![alt text](https://github.com/Pumuckl-TB/Robust-Asset-Allocation/blob/main/Model1.png)
+
+![alt text](https://github.com/Pumuckl-TB/Robust-Asset-Allocation/blob/main/Model2.png)
