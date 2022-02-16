@@ -3,7 +3,7 @@
 This is a python implementation of the robust bayesian portfolio method introduced by Evan W. Anderson and Ai-Ru Meg Cheng in 2012. 
 The orginial paper can be found here: https://www.jstor.org/stable/43866052
 
-The named sections in the code refer to the precise parts in the original paper. 
+The named sections in the code refer to the precise parts in the original paper. The data required to run this code is attached. 
 
 # Modern Portfolio Theory
 Mean-Variance optimization, better known as modern portfolio theory, describes the school of Markowitz, whereby the trade-off between risk and reward is solved, such that the expected return is maximized given a certain level of risk (cf Markowitz 1952). This mathematical approach to asset allocation is the formalization of diversification, which allows the portfolio to reduce all asset specific risk to the level that only market risk remains. This implies that a portfolio has a lower risk to the same expected return compared to a non optimally diversified strategy and therefore, arguably the most efficient way to asset allocation. However, this only holds true given the true expected returns and covariances are known, since those are crucial for an optimal allocation. Historical correlations might indicate future ones but are not perfectly matching. Thus, distortions arise and portfolios are non-optimally diversified in future periods. This parameter uncertainty is a key problem to solve.
