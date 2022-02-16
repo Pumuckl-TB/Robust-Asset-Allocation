@@ -15,3 +15,5 @@ I compare this model to a simple Markovitz portfolio strategy and an equal-weigh
 While no clear winner emerged it is interesting to note that the Bayesian model might be a good method in more volatile times such as recessions.
 Potential extensions would be the inclusion of GARCH specifications to model time varying volat- ility in the variance-covariance estimations, a combination of Anderson and Cheng’s and Richard Michaud and Robert Michaud’s approach, wherby the ‘Robust Bayesian Portfolio Choices’ technique is enforced by repeatedly bootstrapping past observations.
 
+
+![alt text](https://github.com/Pumuckl-TB/Robust-Asset-Allocation/blob/main/Model1.png)
